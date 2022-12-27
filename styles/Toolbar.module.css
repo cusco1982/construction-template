@@ -1,0 +1,25 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    height: 100px;
+    background-color: black;
+}
+
+.Logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    /* transition: 1s ease-out; */
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    /* border-right: 1px solid whitesmoke; */
+    /* color: white; */
+    background-color: red;
+    /* justify-content: flex-end; */
+}
