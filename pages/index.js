@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-// import Image from 'next/image'
+// import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import Jumbotron from '../components/Jumbotron'
+// import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -23,9 +25,90 @@ export default function Home() {
 
 
 
+      <div>
+
+
+        <Col lg={8} style={{ backgroundColor: "red", margin: "auto", display: "flex" }}>
+
+
+
+
+
+          <Col style={{ backgroundColor: "orange", display: "flex" }}>
+
+
+            <Col style={{ backgroundColor: "blue", display: "flex" }}>
+
+
+              <svg style={{ backgroundColor: "whitesmoke", marginTop: "auto", marginBottom: "auto", borderRadius: "", padding: "", color: "black" }} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" /></svg>
+
+
+
+
+              <Col style={{ backgroundColor: "white", margin: "" }}>
+
+
+
+                <h5 style={{ backgroundColor: "orange", margin: "0"}}>Quick Contact</h5>
+
+                <p style={{ padding: "", margin: "0", backgroundColor: "green", fontSize:".9em" }}>
+                  Email: cusco2891@gmail.com
+                  <br />
+                  Phone: 732 910 1016
+                </p>
+
+              </Col>
+
+
+            </Col>
+
+
+            <Col style={{ backgroundColor: "pink" }}>
+
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" /></svg>
+
+
+
+            </Col>
+
+
+
+
+
+          </Col>
+
+
+
+          <Col style={{ backgroundColor: "green" }}> hello </Col>
+
+
+
+
+
+
+
+        </Col>
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
     </div>
   )
-}
+};
