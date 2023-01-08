@@ -49,7 +49,7 @@ export default function Home() {
               </Col>
             </Col>
           </Col>
-          <Col style={{ backgroundColor: "black", zIndex: "100" }}>
+          <Col style={{ backgroundColor: "black", zIndex: "10" }}>
             <div style={{ backgroundColor: "#FF4D10", height: "210px", color: "white", padding: "35px", paddingLeft: "40px", margin: "", transform: "translate(0,-50%)", borderRadius: "10px" }}>
               <h6 style={{ margin: "0", paddingBottom: "5px", fontWeight: "700", fontSize: "1.15em" }}>A leading Developer Of A Grade</h6>
               <h6 style={{ margin: "0", fontWeight: "700", fontSize: "1.15em" }}>Commerical & Residential projects</h6>
@@ -68,6 +68,8 @@ export default function Home() {
       </div>
 
 
+
+
       <div style={{ paddingBottom: "52.5px", backgroundColor: "" }}>
         <Col style={{ backgroundColor: "pink", textAlign: "center" }}>
           <h6 style={{ color: "#FF4D10", margin: "0" }}>The Best A Grade Commerical & Residential Services</h6>
@@ -80,16 +82,10 @@ export default function Home() {
 
 
 
-
-
-
       <div>
-        <Col style={{ width: "55vw", backgroundColor: "", display: "flex", margin: "auto" }}>
-
-
-
-          <Col style={{ backgroundColor: "#FF4D10", padding: "30px", paddingRight: "0px", height: "", borderRadius: "12px" }}>
-            <div style={{ backgroundColor: "", color: "white" }}>
+        <Col style={{ width: "55vw", backgroundColor: "", display: "flex", margin: "auto"}}>
+          <Col style={{ backgroundColor: "#FF4D10", padding: "30px", paddingRight: "0px", height: "", borderRadius: "12px", paddingBottom:"50px"  }}>
+            <div style={{ backgroundColor: "", color: "white", paddingBottom: "", backgroundColor: "" }}>
               <div style={{ height: "", backgroundColor: "", borderBottom: "2px solid white" }}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-bricks" viewBox="0 0 16 16"><path d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2h5V1h-5zm6 0v2H15V1h-3.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z" /></svg>
                 <div style={{ paddingTop: "45px", paddingBottom: "45px", backgroundColor: "" }}>
@@ -97,48 +93,57 @@ export default function Home() {
                   <h6 style={{ margin: "0" }}>& Building</h6>
                 </div>
               </div>
-              <div style={{ height: "", paddingRight: "30px" }}>
+              <div style={{ height: "", paddingRight: "30px", backgroundColor: "" }}>
                 <p style={{ margin: "0", fontSize: ".85em", paddingTop: "30px", paddingBottom: "30px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda vel quia itaque facere, quaerat quisquam harum cupiditate! Quia, ullam quia itaque facere, quaerat quisquam.</p>
-                <a style={{ textDecoration: "none", color: "white" }} href=""><div style={{ paddingTop: "10px", paddingBottom: "20px" }}>Read More</div></a>
+                <a style={{ textDecoration: "none", color: "white" }} href="">
+                  <div style={{ backgroundColor: "", display: "flex" }}>
+                    <h6 style={{ backgroundColor: "", marginTop: "auto", marginBottom: "auto", paddingRight: "5px" }}>Read More</h6>
+                    <div style={{ backgroundColor: "white", borderRadius: "12px", padding: "2px" }}><svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="#FF4D10" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg></div>
+                  </div>
+                </a>
               </div>
             </div>
           </Col>
-
-
           <Col style={{ backgroundColor: "", padding: "30px", paddingRight: "0px", height: "", borderRadius: "12px" }}>
             <div style={{ backgroundColor: "", color: "black" }}>
-              <div style={{ height: "", backgroundColor: "", borderBottom: "2px solid gray" }}>
+              <div style={{ height: "", backgroundColor: "", borderBottom: "2px solid whitesmoke" }}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#FF4D10" class="bi bi-bricks" viewBox="0 0 16 16"><path d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2h5V1h-5zm6 0v2H15V1h-3.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z" /></svg>
                 <div style={{ paddingTop: "45px", paddingBottom: "45px", backgroundColor: "" }}>
                   <h6 style={{ margin: "0" }}>Contruction</h6>
                   <h6 style={{ margin: "0" }}>Consultants</h6>
                 </div>
               </div>
-              <div style={{ height: "", paddingRight: "30px" }}>
+              <div style={{ height: "", paddingRight: "30px", backgroundColor: "" }}>
                 <p style={{ margin: "0", fontSize: ".85em", paddingTop: "30px", paddingBottom: "30px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda vel quia itaque facere, quaerat quisquam harum cupiditate! Quia, ullam quia itaque facere, quaerat quisquam.</p>
-                <a style={{ textDecoration: "none", color: "black" }} href=""><div style={{ paddingTop: "10px", paddingBottom: "20px" }}>Read More</div></a>
+                <a style={{ textDecoration: "none", color: "black" }} href="">
+                  <div style={{ backgroundColor: "", display: "flex" }}>
+                    <h6 style={{ backgroundColor: "", marginTop: "auto", marginBottom: "auto", paddingRight: "5px" }}>Read More</h6>
+                    <div style={{ backgroundColor: "#FF4D10", borderRadius: "12px", padding: "2px" }}><svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg></div>
+                  </div>
+                </a>
               </div>
             </div>
           </Col>
-
-
           <Col style={{ backgroundColor: "", padding: "30px", paddingRight: "0px", height: "", borderRadius: "12px" }}>
             <div style={{ backgroundColor: "", color: "black" }}>
-              <div style={{ height: "", backgroundColor: "", borderBottom: "2px solid gray" }}>
+              <div style={{ height: "", backgroundColor: "", borderBottom: "2px solid whitesmoke" }}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#FF4D10" class="bi bi-bricks" viewBox="0 0 16 16"><path d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2h5V1h-5zm6 0v2H15V1h-3.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z" /></svg>
                 <div style={{ paddingTop: "45px", paddingBottom: "45px", backgroundColor: "" }}>
                   <h6 style={{ margin: "0" }}>Contruction</h6>
                   <h6 style={{ margin: "0" }}>Consultants</h6>
                 </div>
               </div>
-              <div style={{ height: "", paddingRight: "30px" }}>
+              <div style={{ height: "", paddingRight: "30px", backgroundColor: "" }}>
                 <p style={{ margin: "0", fontSize: ".85em", paddingTop: "30px", paddingBottom: "30px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem assumenda vel quia itaque facere, quaerat quisquam harum cupiditate! Quia, ullam quia itaque facere, quaerat quisquam.</p>
-                <a style={{ textDecoration: "none", color: "black" }} href=""><div style={{ paddingTop: "10px", paddingBottom: "20px" }}>Read More</div></a>
+                <a style={{ textDecoration: "none", color: "black" }} href="">
+                  <div style={{ backgroundColor: "", display: "flex" }}>
+                    <h6 style={{ backgroundColor: "", marginTop: "auto", marginBottom: "auto", paddingRight: "5px" }}>Read More</h6>
+                    <div style={{ backgroundColor: "#FF4D10", borderRadius: "12px", padding: "2px" }}><svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg></div>
+                  </div>
+                </a>
               </div>
             </div>
           </Col>
-
-
         </Col>
       </div>
 
@@ -156,7 +161,13 @@ export default function Home() {
 
 
 
-      <div style={{ height: "1000px" }}></div>
+
+
+
+      <div style={{ height: "1000px" }}>
+
+
+      </div>
 
 
 
