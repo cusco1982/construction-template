@@ -72,7 +72,6 @@ export default function Home() {
 
 
 
-
       <div style={{ paddingBottom: "52.5px", backgroundColor: "" }}>
         <Col style={{ backgroundColor: "pink", textAlign: "center" }}>
           <h6 style={{ color: "#FF4D10", margin: "0" }}>The Best A Grade Commerical & Residential Services</h6>
@@ -80,8 +79,6 @@ export default function Home() {
           <h3 style={{ margin: "0", fontSize: "1.7em" }}>For Residentials & Industries</h3>
         </Col>
       </div>
-
-
 
 
 
@@ -158,45 +155,59 @@ export default function Home() {
 
 
 
-
-
-
-
-
-
-        <div style={{ backgroundColor: "", padding: "", display: "flex" }}>
-          <div style={{ backgroundColor: "#FF4D10", color: "whitesmoke", width: "50%", marginTop: "50px" }}>
-            <div style={{ width: "60%", margin: "auto", paddingTop: "40px", backgroundColor: "" }}>
-              <h5 style={{ margin: "0", padding: "0" }}>World's Leading Industry Corporation</h5>
-              <h3 style={{ margin: "0" }}>Best A Grade Commercial <br /> & Residential Services</h3>
-              <p style={{ backgroundColor: "", width: "70%", paddingTop: "20px", paddingBottom: "20px", fontSize: ".8em" }}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered altercation in some form, by injected humor, or randomised words which don't look even slightly believable or randomised words which don't look.</p>
-              <Row>
-                <Col>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-building-fill-gear" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z" /><path d="M11.886 9.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" /></svg>
-                  <h5 style={{ paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Powerful Product <br /> Strategy</h5>
-                  <p style={{ backgroundColor: "", fontSize: ".8em", width: "95%" }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit sit adipisci aliquam unde ullam voluptatem earum ea.</p>
-                </Col>
-                <Col>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-patch-check-fill" viewBox="0 0 16 16"><path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" /></svg>
-                  <h5 style={{ paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Award Winning <br /> Project</h5>
-                  <p style={{ backgroundColor: "", fontSize: ".8em", width: "95%" }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit sit adipisci aliquam unde ullam voluptatem earum ea.</p>
-                </Col>
-              </Row>
+      <div style={{ backgroundColor: "", padding: "", display: "flex" }}>
+        <div style={{ backgroundColor: "#FF4D10", color: "whitesmoke", width: "50%", marginTop: "50px" }}>
+          <div style={{ width: "60%", margin: "auto", paddingTop: "40px", backgroundColor: "" }}>
+            <h5 style={{ margin: "0", padding: "0" }}>World's Leading Industry Corporation</h5>
+            <h3 style={{ margin: "0" }}>Best A Grade Commercial <br /> & Residential Services</h3>
+            <p style={{ backgroundColor: "", width: "70%", paddingTop: "20px", paddingBottom: "20px", fontSize: ".8em" }}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered altercation in some form, by injected humor, or randomised words which don't look even slightly believable or randomised words which don't look.</p>
+            <Row>
+              <Col>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-building-fill-gear" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z" /><path d="M11.886 9.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" /></svg>
+                <h5 style={{ paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Powerful Product <br /> Strategy</h5>
+                <p style={{ backgroundColor: "", fontSize: ".8em", width: "95%" }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit sit adipisci aliquam unde ullam voluptatem earum ea.</p>
+              </Col>
+              <Col>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-patch-check-fill" viewBox="0 0 16 16"><path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" /></svg>
+                <h5 style={{ paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Award Winning <br /> Project</h5>
+                <p style={{ backgroundColor: "", fontSize: ".8em", width: "95%" }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit sit adipisci aliquam unde ullam voluptatem earum ea.</p>
+              </Col>
+            </Row>
+          </div>
+        </div>
+        <Col style={{ padding: "0", backgroundColor: "" }}>
+          <Image className={styles.newimage} src={demolition} alt="construction workers"
+            // width={800}
+            layout="intrinsic"
+          />
+          <div style={{ backgroundColor: "#FF4D10", width: "35%", textAlign: "right", color: "whitesmoke", display: "flex", justifyContent: "end", paddingRight: "10px", paddingBottom: "5px" }}>
+            <div style={{ backgroundColor: "", display: "inline-block", textAlign: "center", padding: "10px" }}>
+              <h6 style={{ margin: "0" }}>Watch</h6>
+              <h6 style={{ margin: "0" }}>Our Video!</h6>
+            </div>
+            <div style={{ marginTop: "auto", marginBottom: "auto", padding: "5px", border: "1px solid white", borderRadius: "25px" }}>
+              <svg style={{ backgroundColor: "black", borderRadius: "25px" }} xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" /></svg>
             </div>
           </div>
-          <Col style={{ padding: "0" }}>
-            <Image src={demolition} alt="construction workers"
-              // width={800}
-              layout="intrinsic"
-            />
-            <div style={{ backgroundColor: "#FF4D10", width: "35%", textAlign: "right", color:"whitesmoke" }}>
-              <div style={{ backgroundColor: "", display: "inline-block", textAlign: "center", padding: "10px", paddingRight:"25px" }}>
-                <h6 style={{ margin: "0" }}>Watch</h6>
-                <h6 style={{ margin: "0" }}>Our Video!</h6>
-              </div>
-            </div>
-          </Col>
-        </div>
+        </Col>
+      </div>
+
+
+
+      <div style={{ textAlign: "center", backgroundColor: "", padding: "40px" }}>
+        <h5 style={{ margin: "0", color: "#FF4D10", fontWeight: "600" }}>Featured Project</h5>
+        <h3 style={{ margin: "0" }}><b>Our Recent Works</b></h3>
+      </div>
+
+
+
+
+
+
+
+
+
+
 
 
 
