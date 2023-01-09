@@ -7,6 +7,7 @@ import Jumbotron from '../components/Jumbotron'
 import Image from 'next/image'
 
 import demolition from "../photos/demolition.jpg";
+import chemTank from "../photos/chemTank.JPG";
 
 
 export default function Home() {
@@ -208,7 +209,69 @@ export default function Home() {
 
 
 
+      <div style={{ backgroundColor: "pink" }}>
 
+
+
+
+        <Row style={{ backgroundColor: "pink", width: "55vw", margin: "auto" }}>
+
+          <Col style={{ backgroundColor: "red" }}>
+
+            <div style={{ paddingLeft: "", paddingRight: "", backgroundColor: "white" }}>
+
+
+              <Image 
+              src={chemTank} 
+              alt="chemical tank" 
+              layout="intrinsic" 
+              />
+
+              <div style={{backgroundColor:"purple", padding:"15px"}}>
+                <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>The Fallingwater House</h6>
+                <header style={{ color: "#FF4D10", fontSize: ".9em" }}>Building Inertia</header>
+                <p style={{ fontSize: ".8em", paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facilis repellendus debitis magni deserunt reiciendis, doloremque.</p>
+              </div>
+
+
+
+            </div>
+
+
+
+
+          </Col>
+
+
+
+
+
+          <Col style={{ backgroundColor: "orange" }}>
+            <div style={{ paddingLeft: "", paddingRight: "", backgroundColor: "white" }}>
+              <Image src={demolition} alt="construction workers" layout="intrinsic" />
+            </div>
+          </Col>
+
+
+
+          <Col style={{ backgroundColor: "blue" }}>
+            <div style={{ paddingLeft: "", paddingRight: "", backgroundColor: "white" }}>
+              <Image src={demolition} alt="construction workers" layout="intrinsic" />
+            </div>
+          </Col>
+
+
+
+
+
+        </Row>
+
+
+
+
+
+
+      </div>
 
 
 
