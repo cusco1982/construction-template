@@ -299,6 +299,42 @@ export default function Home() {
 
 
 
+      <div>
+
+
+
+
+        <div style={{ display: "flex", width: "55vw", backgroundColor: "green", margin: "auto", justifyContent: "space-around" }}>
+
+
+
+
+
+          <div style={{ backgroundColor: "red" }}>CAPITAL</div>
+          <div style={{ backgroundColor: "blue" }}>CAPITAL</div>
+          <div style={{ backgroundColor: "orange" }}>CAPITAL</div>
+          <div style={{ backgroundColor: "pink" }}>CAPITAL</div>
+          <div style={{ backgroundColor: "red" }}>CAPITAL</div>
+          <div style={{ backgroundColor: "red" }}>CAPITAL</div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
 
 
 
