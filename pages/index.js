@@ -209,85 +209,85 @@ export default function Home() {
 
 
 
-      <div style={{ backgroundColor: "pink" }}>
-
-
-
-
+      <div style={{ backgroundColor: "black" }}>
         <Row style={{ backgroundColor: "pink", width: "55vw", margin: "auto" }}>
-
-          <Col style={{ backgroundColor: "red" }}>
-
-            <div style={{ paddingLeft: "", paddingRight: "", backgroundColor: "white" }}>
-
-
-              <Image 
-              src={chemTank} 
-              alt="chemical tank" 
-              layout="intrinsic" 
+          <Col style={{ backgroundColor: "", padding: "20px" }}>
+            <div style={{ backgroundColor: "", height: "300px" }}>
+              <Image
+                src={chemTank}
+                alt="chemical tank"
+                layout="fill"
+                style={{ borderRadius: "5px", position: "" }}
               />
-
-              <div style={{backgroundColor:"purple", padding:"15px"}}>
-                <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>The Fallingwater House</h6>
-                <header style={{ color: "#FF4D10", fontSize: ".9em" }}>Building Inertia</header>
-                <p style={{ fontSize: ".8em", paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facilis repellendus debitis magni deserunt reiciendis, doloremque.</p>
-              </div>
-
-
-
             </div>
-
-
-
-
-          </Col>
-
-
-
-
-
-          <Col style={{ backgroundColor: "orange" }}>
-            <div style={{ paddingLeft: "", paddingRight: "", backgroundColor: "white" }}>
-              <Image src={demolition} alt="construction workers" layout="intrinsic" />
+            <div style={{ backgroundColor: "", padding: "15px" }}>
+              <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>The Fallingwater House</h6>
+              <header style={{ color: "#FF4D10", fontSize: ".9em" }}>Building Inertia</header>
+              <p style={{ fontSize: ".8em", paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facilis repellendus debitis magni deserunt reiciendis, doloremque.</p>
+            </div>
+            <div style={{ textAlign: "center", paddingTop: "20px", backgroundColor: "", marginTop: "" }}>
+              <a style={{ backgroundColor: "", color: "white", textDecoration: "none" }} href="">
+                <div style={{ backgroundColor: "#FF4D10", padding: "10px", width: "90%", margin: "auto", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", display: "flex", justifyContent: "center", borderTop: "2px solid transparent" }}>
+                  <div style={{ marginTop: "auto", marginBottom: "auto", paddingRight: "25px" }}>Explore More</div>
+                  <div style={{ backgroundColor: "white", padding: "3px", borderRadius: "25px" }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ff6408" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg>
+                  </div>
+                </div>
+              </a>
             </div>
           </Col>
-
-
-
-          <Col style={{ backgroundColor: "blue" }}>
-            <div style={{ paddingLeft: "", paddingRight: "", backgroundColor: "white" }}>
-              <Image src={demolition} alt="construction workers" layout="intrinsic" />
+          <Col style={{ backgroundColor: "", padding: "20px" }}>
+            <div style={{ backgroundColor: "", height: "300px" }}>
+              <Image
+                src={demolition}
+                alt="construction workers"
+                layout="fill"
+                style={{ borderRadius: "5px", position: "" }}
+              />
+            </div>
+            <div style={{ backgroundColor: "", padding: "15px" }}>
+              <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>The Guggenheim Museum</h6>
+              <header style={{ color: "#FF4D10", fontSize: ".9em" }}>Constructing, Engineering</header>
+              <p style={{ fontSize: ".8em", paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facilis repellendus debitis magni deserunt reiciendis, doloremque.</p>
+            </div>
+            <div style={{ textAlign: "center", paddingTop: "20px", backgroundColor: "", marginTop: "" }}>
+              <a style={{ backgroundColor: "", color: "black", textDecoration: "none", fontWeight: "600" }} href="">
+                <div style={{ backgroundColor: "", padding: "10px", width: "90%", margin: "auto", borderTopLeftRadius: "", borderTopRightRadius: "", display: "flex", justifyContent: "center", borderTop: "1px solid #B8B7B7" }}>
+                  <div style={{ marginTop: "auto", marginBottom: "auto", paddingRight: "25px" }}>Explore More</div>
+                  <div style={{ backgroundColor: "#FF4D10", padding: "3px", borderRadius: "25px" }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg>
+                  </div>
+                </div>
+              </a>
             </div>
           </Col>
-
-
-
-
-
+          <Col style={{ backgroundColor: "", padding: "20px" }}>
+            <div style={{ backgroundColor: "", height: "300px" }}>
+              <Image
+                src={demolition}
+                alt="construction workers"
+                layout="fill"
+                style={{ borderRadius: "5px", position: "" }}
+              />
+            </div>
+            <div style={{ backgroundColor: "", padding: "15px" }}>
+              <h6 style={{ margin: "0", paddingTop: "5px", paddingBottom: "5px" }}>Neue National Gallerie</h6>
+              <header style={{ color: "#FF4D10", fontSize: ".9em" }}>Renuvation Architecture</header>
+              <p style={{ fontSize: ".8em", paddingTop: "10px", paddingBottom: "10px", margin: "0" }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facilis repellendus debitis magni deserunt reiciendis, doloremque.</p>
+            </div>
+            <div style={{ textAlign: "center", paddingTop: "20px", backgroundColor: "", marginTop: "" }}>
+              <a style={{ backgroundColor: "", color: "black", textDecoration: "none", fontWeight: "600" }} href="">
+                <div style={{ backgroundColor: "", padding: "10px", width: "90%", margin: "auto", borderTopLeftRadius: "", borderTopRightRadius: "", display: "flex", justifyContent: "center", borderTop: "1px solid #B8B7B7" }}>
+                  <div style={{ marginTop: "auto", marginBottom: "auto", paddingRight: "25px" }}>Explore More</div>
+                  <div style={{ backgroundColor: "#FF4D10", padding: "3px", borderRadius: "25px" }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </Col>
         </Row>
-
-
-
-
-
-
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
