@@ -9,6 +9,16 @@ import Image from 'next/image'
 import demolition from "../photos/demolition.jpg";
 import chemTank from "../photos/chemTank.JPG";
 
+import threem from "../photos/brands/3m.jpg";
+import dowCorning from "../photos/brands/dowCorning.jpg";
+import foam from "../photos/brands/foam.jpg";
+import johnsmanville from "../photos/brands/johnsmanville.jpg";
+import knauf from "../photos/brands/knauf.jpg";
+import pabco from "../photos/brands/pabco.jpg";
+import proto from "../photos/brands/proto.jpg";
+import venture from "../photos/brands/venture.jpg";
+
+
 
 export default function Home() {
   return (
@@ -209,8 +219,8 @@ export default function Home() {
 
 
 
-      <div style={{ backgroundColor: "black" }}>
-        <Row style={{ backgroundColor: "pink", width: "55vw", margin: "auto" }}>
+      <div style={{ backgroundColor: "black", paddingBottom:"60px" }}>
+        <Row style={{ backgroundColor: "blue", width: "55vw", margin: "auto" }}>
           <Col style={{ backgroundColor: "", padding: "20px" }}>
             <div style={{ backgroundColor: "", height: "300px" }}>
               <Image
@@ -287,6 +297,21 @@ export default function Home() {
             </div>
           </Col>
         </Row>
+
+
+
+
+        <div style={{ display: "flex", backgroundColor: "white", justifyContent: "center", backgroundColor: "pink", padding: "5px" }}>
+          <div style={{ backgroundColor: "white", margin: "" }}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#FF4D10" class="bi bi-dash" viewBox="0 0 16 16"><path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" /></svg>
+          </div>
+          <div style={{ backgroundColor: "white", margin: "" }}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="gray" class="bi bi-dash" viewBox="0 0 16 16"><path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" /></svg>
+          </div>
+        </div>
+
+
+
       </div>
 
 
@@ -299,34 +324,17 @@ export default function Home() {
 
 
 
-      <div>
-
-
-
-
-        <div style={{ display: "flex", width: "55vw", backgroundColor: "green", margin: "auto", justifyContent: "space-around" }}>
-
-
-
-
-
-          <div style={{ backgroundColor: "red" }}>CAPITAL</div>
-          <div style={{ backgroundColor: "blue" }}>CAPITAL</div>
-          <div style={{ backgroundColor: "orange" }}>CAPITAL</div>
-          <div style={{ backgroundColor: "pink" }}>CAPITAL</div>
-          <div style={{ backgroundColor: "red" }}>CAPITAL</div>
-          <div style={{ backgroundColor: "red" }}>CAPITAL</div>
-
-
-
-
-
-
-        </div>
-
-
-
-
+      <div style={{ backgroundColor: "red" }}>
+        <Row style={{ display: "", width: "55vw", backgroundColor: "blue", margin: "auto", paddingTop: "60px", paddingBottom: "60px" }}>
+          <Col style={{ backgroundColor: "pink", paddingLeft: "0" }}><Image src={pabco} alt="pabco" layout="fill" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "pink" }}><Image src={threem} alt="3m" layout="fill" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "pink" }}><Image src={foam} alt="foam" layout="fill" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "pink" }}><Image src={johnsmanville} alt="johnsmanville" layout="fill" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "pink" }}><Image src={knauf} alt="knauf" layout="fill" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "pink" }}><Image src={proto} alt="proto" layout="fill" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "pink"}}><Image src={venture} alt="venture" layout="fill" style={{ position: "" }} /></Col>
+          <Col style={{ backgroundColor: "pink", paddingRight: "0"  }}><Image src={dowCorning} alt="dowcorning" layout="fill" style={{ position: "" }} /></Col>
+        </Row>
       </div>
 
 
